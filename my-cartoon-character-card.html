@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Cartoon Card</title>
+
+    <style>
+        /* Universal Selector */
+        * {
+            font-family: Arial;
+        }
+
+        /* Element Selectors */
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            color: black;
+            font-size: 18px;
+        }
+
+        /* Class Selector */
+        .card {
+            background-color: white;
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border: 3px solid navy;
+        }
+
+        /* ID Selector */
+        #favorite {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>My Cartoon Card</h1>
+
+    <div class="card">
+
+        <!-- Inline CSS -->
+        <h2 style="color: orange;">SpongeBob SquarePants</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg" width="180"
+            alt="SpongeBob">
+
+        <p>SpongeBob lives in a pineapple under the sea.</p>
+
+        <p>He is cheerful, funny, and loves making Krabby Patties.</p>
+
+        <p id="favorite">He is my favorite cartoon character!</p>
+
+    </div>
+
+</body>
+
+</html>
